@@ -1,0 +1,1 @@
+I learned how to use more css and html. his project also taught me how to use flex more approriately and how the importance of seperation of concern on my index.html file. Flex basically makes everything align horizontally, and naturally the index divs stack onto each other. So I utilize these two facts to effectively use flex.
