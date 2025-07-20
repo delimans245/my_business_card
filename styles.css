@@ -1,0 +1,48 @@
+body {
+    margin: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: 	#3b3b3b
+    
+}
+
+.profile-picture {
+    width: 130px;
+    height: 100px;
+    display: flex;
+    margin-top: 15px;
+}
+
+.card {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    width: 500px;
+    margin: 10px auto;
+    background: #98FB98;
+    border-bottom: 4px solid #0D98BA;
+    border-right: 4px solid #0D98BA;
+    text-shadow: 1px 1px 2px #000;
+}
+
+.card * {
+    transition: transform 0.2s;
+}
+
+.card *:hover {
+    animation: pulse 0.5s;
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.30);
+    }
+    100% {
+        transform: scale(.8);
+    }
+}
+
+
+
